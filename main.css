@@ -1,0 +1,26 @@
+
+ul { /*Edita a ul de maneira geral*/
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul a{/*edita os links dentro da ul expecificamente*/
+    width: 200px;
+    height: 40px;
+    display: block;
+    background: url(imagens/menu.png);
+    text-indent: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover{ /*edita o que acontece com o link quando passamos por cime dele*/
+    background-position: right bottom;
+}
+
+li{ /*edita os itens da lista*/
+    margin: 0px;
+    padding: 0px;
+}
